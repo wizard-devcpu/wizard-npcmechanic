@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="NPC MECHANIC" src="https://github.com/user-attachments/assets/d67b50b4-e672-49de-b36a-95cd5ac601c9" />
+<img width="1920" height="1080" alt="canvas" src="https://github.com/user-attachments/assets/771c4648-3b89-4429-bc89-78a86acd085f" />
 
 # Wizard NPC Mechanic
 
