@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container" style="display:none;">
+        <div class="menu-wrapper">
+            <div class="main-card">
+                <div class="header">
+                    <h1>Wizard<span>Dev</span></h1>
+                </div>
+                
+                <div class="input-group">
+                    <label>Status:</label>
+                    <div class="input-box" id="mechanic-status">[Available]</div>
+                </div>
+
+                <div class="input-group">
+                    <label>Cost:</label>
+                    <div class="input-box" id="mechanic-cost">[$0]</div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-icon">!</div>
+                    <div class="info-text">
+                        This will summon an NPC mechanic to your location. 
+                        They will perform emergency vehicle repairs.
+                        Do not use this during a scene.
+                    </div>
+                </div>
+
+                <button id="start-btn" class="btn-main">CALL MECHANIC</button>
+                <button id="reset-btn" class="btn-reset">RESTART SCRIPT</button>
+
+                <div class="footer">
+                    <span class="footer-left">Wizard.dev NPC Mechanic</span>
+                    <span class="footer-right">v1.0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

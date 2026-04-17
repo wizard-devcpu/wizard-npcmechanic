@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+.menu-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    background: #111111;
+    width: 450px;
+    border-radius: 40px;
+    padding: 40px 40px 80px 40px; 
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.header h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0 0 30px 0;
+}
+
+.header span {
+    color: #3a96ff;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    width: 100px;
+}
+
+.input-box {
+    background: #2a2a2a;
+    flex-grow: 1;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: #e0e0e0;
+    font-weight: 700;
+}
+
+.info-box {
+    background: #181818;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    margin: 20px 0;
+    align-items: flex-start;
+}
+
+.info-icon {
+    color: #3a96ff;
+    font-weight: 800;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.info-text {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.btn-main {
+    width: 100%;
+    background: #3a96ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(58, 150, 255, 0.4);
+    margin-bottom: 15px;
+}
+
+.btn-reset {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 20px;
+    color: #555;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px; 
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #3a96ff;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255,255,255,1.0);
+}
