@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.postimg.cc/yxWHxHGK/New-Project.png" alt="Wizard NPC Mechanic Header" width="100%">
+</p>
+
 # Wizard NPC Mechanic
 
 ### Overview
